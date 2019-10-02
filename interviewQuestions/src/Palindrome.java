@@ -15,16 +15,21 @@ public class Palindrome
 
     public boolean isPalindrome(String word)
     {
+        
         if(word == null)
         {
             return false;
         }
+        String wordConverted = word.toLowerCase();
         
-        for(i = word.length() ; i = 0 ; i-- )
+        for(int i = wordConverted.length()-1,y = 0; i > 0 ; i--,y++)
         {
-            
+           if( wordConverted.charAt(i) != wordConverted.charAt(y))
+           {
+               return false;
+           }
         }
-        return true 
+        return true; 
 
 
     }
