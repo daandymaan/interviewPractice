@@ -6,7 +6,7 @@ public class Main
         //Palindrome p = new Palindrome();
         //System.out.println(p.isPalindrome("racecar"));
 
-        Anagrams a = new Anagrams("dog", "god");
+        Anagrams a = new Anagrams("Debitcard", "Badcredit");
         System.out.println(a.anagramChecker());
 
         

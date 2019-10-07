@@ -21,8 +21,10 @@ public class Anagrams
         char temp2[];
         int i = 0;
 
-        temp = word1.toCharArray();
-        temp2 = word2.toCharArray();
+        temp = word1.toLowerCase().toCharArray();
+        temp2 = word2.toLowerCase().toCharArray();
+
+        
 
         Arrays.sort(temp);
         Arrays.sort(temp2);
