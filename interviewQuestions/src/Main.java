@@ -9,7 +9,7 @@ public class Main
         //Anagrams a = new Anagrams("Debitcard", "Badcredit");
         //System.out.println(a.anagramChecker());
 
-        VowelConstonant v = new VowelConstonant("hello");
+        VowelConstonant v = new VowelConstonant("hEllo");
         v.countMethod();
     }
 

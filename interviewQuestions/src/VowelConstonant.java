@@ -20,6 +20,9 @@ public class VowelConstonant
         String vowels[] = {"a","e","i","o","u"};
         int vowelcount = 0;
         int constonantcount = 0;
+        int wordcount = 0;
+
+        input= input.toLowerCase();
 
         //A for each loop cycling through all arrays 
         for(String word : vowels)
@@ -36,8 +39,10 @@ public class VowelConstonant
             }
         }
 
+        
         //Finally the method prints out both the constonats and vowels it counted 
         System.out.println("Vowel Count: "+ vowelcount);
+        
         System.out.println("Constonant Count: "+ constonantcount);
     }
 
