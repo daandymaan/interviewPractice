@@ -6,10 +6,11 @@ public class Main
         //Palindrome p = new Palindrome();
         //System.out.println(p.isPalindrome("racecar"));
 
-        Anagrams a = new Anagrams("Debitcard", "Badcredit");
-        System.out.println(a.anagramChecker());
+        //Anagrams a = new Anagrams("Debitcard", "Badcredit");
+        //System.out.println(a.anagramChecker());
 
-        
+        VowelConstonant v = new VowelConstonant("hello");
+        v.countMethod();
     }
 
 
