@@ -13,7 +13,7 @@ public class Main
         //v.countMethod();
 
         DuplicateRemoval dr = new DuplicateRemoval("tthatnkkks");
-        System.out.println(dr.remove());
+        System.out.println(dr.unique());
     }
 
 

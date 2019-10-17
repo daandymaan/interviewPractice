@@ -20,7 +20,6 @@ public class VowelConstonant
         String vowels[] = {"a","e","i","o","u"};
         int vowelcount = 0;
         int constonantcount = 0;
-        int wordcount = 0;
         
         input = input.toLowerCase();
 
