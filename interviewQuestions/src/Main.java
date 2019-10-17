@@ -12,8 +12,8 @@ public class Main
         //VowelConstonant v = new VowelConstonant("hEllo");
         //v.countMethod();
 
-        DuplicateRemoval dr = new DuplicateRemoval("tthanks");
-        dr.remove();
+        DuplicateRemoval dr = new DuplicateRemoval("tthatnkkks");
+        System.out.println(dr.remove());
     }
 
 

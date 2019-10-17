@@ -13,25 +13,25 @@ public class DuplicateRemoval
 
     public String remove()
     {   
+         int i = 1, j = 1; 
         
-
-        for(int i = 0; i < word.length(); i++)
+        char arr[] = word.toCharArray(); 
+        Arrays.sort(arr);
+          
+        
+        while(j != arr.length)
         {
-            for(int j = 0; j < word.length(); j++)
+            if(arr[j-1]!=arr[j])
             {
-                if(word.charAt(i) == word.charAt(j))
-                {
-                    System.out.println("Yep");
-                }
-                
+                arr[i] = arr[j];
+                i++;
             }
-           
+            j++;
         }
-
+      
         
-        return null;
+        word = new String(arr); 
+        return word.substring(0,i);
     }
-
-
 
 }
