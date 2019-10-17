@@ -21,8 +21,8 @@ public class VowelConstonant
         int vowelcount = 0;
         int constonantcount = 0;
         int wordcount = 0;
-
-        input= input.toLowerCase();
+        
+        input = input.toLowerCase();
 
         //A for each loop cycling through all arrays 
         for(String word : vowels)

@@ -9,8 +9,11 @@ public class Main
         //Anagrams a = new Anagrams("Debitcard", "Badcredit");
         //System.out.println(a.anagramChecker());
 
-        VowelConstonant v = new VowelConstonant("hEllo");
-        v.countMethod();
+        //VowelConstonant v = new VowelConstonant("hEllo");
+        //v.countMethod();
+
+        DuplicateRemoval dr = new DuplicateRemoval("tthanks");
+        dr.remove();
     }
 
 
