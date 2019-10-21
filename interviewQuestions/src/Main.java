@@ -12,8 +12,11 @@ public class Main
         //VowelConstonant v = new VowelConstonant("hEllo");
         //v.countMethod();
 
-        DuplicateRemoval dr = new DuplicateRemoval("tthatnkkks");
-        System.out.println(dr.unique());
+        //DuplicateRemoval dr = new DuplicateRemoval("tthatnkkks");
+        //System.out.println(dr.unique());
+
+        OnlyDigits od = new OnlyDigits("1234");
+        System.out.println(od.digitCheck());
     }
 
 
