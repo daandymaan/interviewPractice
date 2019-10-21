@@ -15,7 +15,7 @@ public class Main
         //DuplicateRemoval dr = new DuplicateRemoval("tthatnkkks");
         //System.out.println(dr.unique());
 
-        OnlyDigits od = new OnlyDigits("1234");
+        OnlyDigits od = new OnlyDigits("123c4");
         System.out.println(od.digitCheck());
     }
 
