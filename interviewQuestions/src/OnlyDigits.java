@@ -1,3 +1,7 @@
+//To check if a string contains only digits , the string is presumed to be not null.
+
+import java.util.regex.Pattern;
+
 public class OnlyDigits
 {
     String word;
@@ -6,10 +10,11 @@ public class OnlyDigits
         word = input;
     }
 
+    //The first digit check solution 
+    //Uses parsing into a double with an exception clause as the solution 
     public Boolean digitCheck()
     {
         word = word.toLowerCase();
-        char arr[] = word.toCharArray();
         boolean result = true ;
        
         try {
@@ -22,11 +27,19 @@ public class OnlyDigits
         else
             System.out.println(word + " is not a number");
     
-
-
-
-
         return result;
+    }
+
+    //The second solution uses regex to check if a string contains only numbers 
+    public Boolean digitCheck2()
+    {
+        Pattern p = Pattern.compile(".*[^0-9].*");
+
+        if(p.matcher(word).matches())
+        {
+            return false;
+        }
+        return true;
     }
 
 

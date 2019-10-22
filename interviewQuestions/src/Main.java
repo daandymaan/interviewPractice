@@ -17,6 +17,7 @@ public class Main
 
         OnlyDigits od = new OnlyDigits("123c4");
         System.out.println(od.digitCheck());
+        System.out.println(od.digitCheck2());
     }
 
 
